@@ -48,3 +48,24 @@ if 2 > 5:
 else:
     print('yo me imprimo sólo si todo lo anterior se evalúa en falso 2.0')
 
+#IF CORTOS Y TERNARIOS
+#If corto
+if 2 > 5: print("If de una línea de código")
+#Operador ternario
+print('cuando devuelve true') if 5 > 2 else print("cuando devuelve falso")
+
+if 2 < 5 and 3 > 2:
+    print("Ambas devuelven true")
+
+if 2 < 5 and 3 < 2:
+    print("Hay una falsa, esto no se mostrará")
+
+if 1 < 0 or 1 > 0:
+    print("Uno de las 2 condiciones devolvió true")
+
+if 1 > 0 or 1 < 0: #Si una condición evalúa en true, se ejecuta la instrucción
+    print("Uno de las 2 condiciones devolvió true")
+
+if 1 < 0 or 1 == 0: #Si ambas condiciones son falsasa entonces no se ejecuta
+    print("No se mostrará ningún mensaje porque ambas son falses")
+
