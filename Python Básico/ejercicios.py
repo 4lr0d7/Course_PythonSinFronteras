@@ -17,7 +17,7 @@ except:
     primero = 'error'
 
 if primero == 'error':
-    print("El primer valor no es un dato numerico entero, por favor vuelva a introducir otro")
+    print("El valor no es un dato numerico entero, por favor vuelva a introducir otro")
     exit()
 
 segundo = input("Ingresa segundo número: ")
@@ -27,7 +27,21 @@ try:
 except:
     segundo = 'error'
 
-if primero == 'error' or segundo == 'error':
-    print('Ingresaste mal un dato, prueba de nuevo sólo con números')
+if segundo == 'error':
+    print("El valor no es un dato numerico entero, por favor vuelva a introducir otro")
+    exit()
+
+simbolo = input("Ingrese operación a desear: ")
+
+if simbolo == "+":
+    print(f"La suma de los dos datos {primero} + {segundo} es: ", primero + segundo)
+elif simbolo == "-":
+    print(f"La resta de los dos datos {primero} - {segundo} es: ", primero - segundo)
+elif simbolo == "/":
+    print(f"La división de los datos {primero} / {segundo} es: ", primero / segundo)
+elif simbolo == "^":
+    print(f"La potencia de los datos {primero} ^ {segundo} es: ", primero ** segundo)
+elif simbolo == "*":
+    print(f"La multiplicación de los datos {primero} * {segundo} es: ", primero * segundo)
 else:
-    print(primero + segundo)
+    print("Elija uno de los siguientes símbolos: +, -, *, ^. Porque el que eligió no es valido.")

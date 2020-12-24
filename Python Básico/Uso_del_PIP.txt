@@ -1,0 +1,13 @@
+¿Cómo usar PIP?
+- Se debe de usar una terminal CMD
+- Poner el comando:
+"pip install *nombre del paquete a usar*"
+- Se pueden buscar los paquetes en pypi.org
+- Ejemplo a usar: pip install camelcase
+- Si se tiene algún error se usará "pip3 install camelcase"
+- Si sigue apareciendo el mismo error se debe de desinstalar el pip y volverlo a instalar
+- El comando "pip list" nos arroja una lista de todos los modulos que tenemos instalados
+- Para eliminar un modulo se debe de ejecutar el siguiente comando:
+"pip uninstall -nombre del paquete-"
+
+NOTA: Una buena práctica es el re-utilizar código de otros desarrolladores para hacer más con menos
