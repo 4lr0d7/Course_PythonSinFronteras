@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección 14</title>
+</head>
+<body>
+    <!-- Los formularios ayudan a pedir datos al usuario -->
+    <form action="">
+        <!-- Los fieldset ayudan a agrupar los campos de los formularios -->
+        <fieldset>
+            <!-- Los legend ponen un nombre a los formularios -->
+            <legend>Datos Personales</legend>
+            <!-- Los Label funcionan para darle indiciaciones a los input -->
+            <label for="">Nombre:</label>
+            <!-- Ayuda a que los usuarios pongan los datos que nosotros necesitamos -->
+            <!-- Type = "text": Solo requiere de texto, también se pueden usar números pero estos serán Strings -->
+            <input type="text" placeholder="Introduzca su nombre" />
+            <br><!--br: Ayuda a dar salto de linea entre cada input -->
+            <label for="">Edad:</label>
+            <!-- Type = "number": Solo requiere pasarle números y exponencial en caso de ser necesario -->
+            <input type="number" placeholder="Introduzca su edad" />
+            <br>
+            <label for="">Contraseña:</label>
+            <!-- Type = "password": Cambia lo que se escriba
+            por asteriscos para mantener de manera no visible la contraseña a poner -->
+            <input type="password" placeholder="Introduzca una contraseña">
+            <!-- Type = "submit": Crea un botón para enviar el formulario -->
+            <!-- value = "Aceptar": Cambia el nombre del botón a "Aceptar" en lugar de "Submit" -->
+            <input type="submit" value = "Aceptar">
+            <!-- Textarea: Ayuda a que el usuario meta más información y se puede cambiar el tamaño como el usuario guste-->
+            <br>
+            <textarea name="" id="" cols="30" rows="10">
+
+            </textarea>
+            <!-- Button: Crea botones -->
+            <!-- NOTA: es más preferible de usar button's en lugar de input con tipo submit -->
+            <button>Añadir</button>
+            <!-- Select: es un drop-down que se pueden crear en html, También llamado ComboBox -->
+            <!-- Option: son las opciones que se ofrece en un drop-down -->
+            <select name="" id="">
+                <option value="patrick">Patrick</option>
+                <option value="pete">Pete</option>
+                <option value="joe">Joe</option>
+                <option value="andy">Andy</option>
+            </select>
+    </fieldset>
+    </form>
+</body>
+</html>
