@@ -1,0 +1,56 @@
+body{
+    background-color: #eee;
+}
+.caja{
+    /* px: Es una unidad de medida que tienen los monitores */
+    /* margin: Agrega margen a los contenedores
+    De todas las direcciones posibles crea el margen
+    Los márgenes van a desplazar el contenido hacia el centro
+    Genera una separación de la ".caja" al body*/
+    margin:8px;
+    background-color: #aaf;
+    /* Si usamos Ctrl+Shift+I, aparecerá el menú de los Elementos
+    al seleccionar la caja, en la parte derecha se encuentra la
+    sección de estilos. */
+    padding: 8px;
+    /* Margin: Es un borde invisible que va a estar bordeando el contenido por fuera*/
+    /* padding: Es un borde invisible que va a estar bordenado por dentro el contenido */
+    /* Usar el background-color ayuda a debuggear los estilos en cuestión de margin y padding */
+    /* border: Está en el medio de margin y padding */
+    border-style: solid;
+    /* ...solid; trae consigo un color solido a la caja
+    ...dashed; linea punteada
+    ...dotted; linea con putos cortos
+    ...double; lineas dobles 
+    ...groove; linea delgada con separación
+    ...ridge; lo mismo que groove pero al revés
+    ...inset; linea que está dentro de la caja, pero hundido
+    ...outset; lo mismo que inset pero al revés
+    ...hidden; se oculta el borde
+    NOTA: Se pueden mixear / combinar
+    border-style: arriba, derecha, abajo, izquierda
+    un solo valor: Todos
+    2 valores: arriba y abajo | izquierda y derecha
+    3 valores: superior | izquierda y derecha | inferior
+    /* Margin es por fuera, Padding se encuentra por dentro y Border se encuentra justo en medio */
+    
+    /* border-width: Ancho del borde */
+    border-width: 8px;
+    /* border-top: arriba ;
+    border-right: derecha ;
+    border-left: izquierda ;
+    border-bottom: abajo ; 
+    */
+    /* border-color: Color del borde */
+    border-color: #faa;
+    /* border-left: tamaño del borde | tipo de borde | color */
+    border-left: 8px solid #afa;
+    /* border-radius: nos permite redondear la caja */
+    border-radius: 15px;
+    /* width: anchura de la caja */
+    width: 100px;
+    /* height: altura de la caja */
+    height: 100px;
+    /* color: Color de la letra */
+    color: #575;
+}

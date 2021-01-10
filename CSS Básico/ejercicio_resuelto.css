@@ -1,0 +1,43 @@
+body{
+    background-color:#eee;
+}
+
+.caja{
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 2px;
+    border-top: solid 0px;
+}
+
+.contenido{
+    padding: 10px;
+}
+
+.footer {
+    padding: 10px;
+    border-top: solid 1px #eee;
+
+}
+
+button{
+    cursor: pointer;
+}
+.primario{
+    background-color: #0090FF;
+    border:0px;
+    padding: 5px;
+    color: #fff;
+}
+.secundario{
+    background-color: #aaa;
+    border:0px;
+    padding: 5px;
+    color: #fff;
+}
+
+.header{
+    padding: 10px;
+    border-bottom: spolid 1px #eee;
+}

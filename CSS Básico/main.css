@@ -1,0 +1,21 @@
+/*Selectores: son una instrucción que nosotros usamos en CSS
+para poder seleccionar nuestras etiquetas de HTML
+En CSS no cambia absolutamente en nada el nombre de las etiquetas de HTML*/
+body{
+    /*background-color: Compuesto por hexadecimales, nombre del color en inglés
+    o en formato RGB */
+background-color: #efefef;
+/*Color: Cambia el color del texto*/
+/* color: #ff0000; */
+}
+
+/*Selectores: ID y Clases*/
+
+/* Selector ID: #NombreID */
+#parrafo{
+    color: #ff0000;
+}
+/* Selector Clase: .NombreClase */
+.etiqueta{
+    color: #00aa00;
+}

@@ -1,0 +1,52 @@
+.body{
+    background-color: #eee;
+}
+
+p{
+    /*Es mejor usar hexadecimales para la búsqueda de algún color interesante*/
+    color: #222fff;
+    /* text-allign: alinea el texto */
+    text-align: center;
+    /* text-align: left;
+    text-align: right;
+    text-align: justify; */
+
+    /* text-ident: Solamente la primera linea se moverá a la derecha por n pixeles que le pongamos */
+    text-indent: 15px;
+    /* line-height: Separación entre renglón por n pixeles que les pongamos */
+    line-height: 1.7;
+    /* text-shadow: Pone sombra al texto
+        text-shadow: dirección derechapx | dirección bottompx  | difuminación | color;    
+        rgbaa(red,green,blue,opacidad)
+        */
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 10);
+    /* font-family: tipo de letra que queramos tener en el texto */
+    font-family: "Times New Roman";
+    /* font-style: Tipo de estilo que queramos */
+    font-style: normal;
+    /* italic, oblique; */
+    /* font-size: Tamaño de la letra */
+    font-size: 20px;
+    /* unidad em: Es el tamaño de la fuente, y es más legible para el usuario */
+
+    /* font-weight: Grosor de la letra */
+    font-weight: bold;
+    /* En lugar de "bold" también se puede usar del 100 al 900 */
+}
+a{
+    /* text-decoration: Nos ayuda a poner o a quitar decoración al texto que queramos.
+    Pero también podemos quitarlo si quieremos [en referencia a las 
+    etiquetas "a"] */
+    text-decoration:none;
+    /* text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline; */
+    text-transform: uppercase; /*Todas las letras en mayusculas*/
+    /* text-transform: lowercase; Todo el texto en minusculas */
+    /* text-transform: capitalize; Cada inicio de letra con mayusucula */
+
+    /* letter-spacing: ayuda a separar entre letra x letra la palabra en n pixeles */
+    letter-spacing: 3px;
+    /* word-spacing: separa palabra x palabra en n pixeles */
+    word-spacing: 10ps;
+}

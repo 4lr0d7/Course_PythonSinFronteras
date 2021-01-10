@@ -1,0 +1,23 @@
+body{
+    background-color: #F0EEF0;
+}
+#cajaMain{
+    background-color: #FFFFFF;
+    border: solid;
+    border-top:solid 0px;
+    border-width: 1px;
+    border-color: #ccc;
+    margin: 15px;
+    padding: 8px;
+}
+button{
+    cursor:pointer;
+}
+#aceptarBtn{
+    background: #22a6b3;
+    color:  #dff9fb;
+}
+#cancelarBtn{
+    background: #95afc0;
+    color:  #dff9fb;
+}
