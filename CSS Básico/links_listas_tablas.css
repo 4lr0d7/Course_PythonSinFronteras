@@ -1,0 +1,22 @@
+body{
+    background-color: #eee; 
+}
+a{
+    color:hotpink;
+}
+/* a: link : Se le modifica el diseño al link que no ha sido visitado aún */
+a: link{
+    color: pink;
+}
+/* a:visited: Cambia de diseño cuando un link ya ha sido visitado */
+a:visited{
+    color:blue;
+}
+/* a:active: Cuando se le da click al link, este se modifica el color */
+a:active{
+    color: black;
+}
+/* a:hover: Cuando está el mouse sobre el link, cambia de diseño */
+a:hover{
+    color: red;
+}
