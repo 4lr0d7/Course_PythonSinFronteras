@@ -1,6 +1,37 @@
 body{
     background-color: #eee;
 }
+/* Se puede crear un botón a través de la etiqueta "a" */
 a{
     color: hotpink;
+    /* Se pone de fondo el color rojo
+    resaltdo así el texto */
+    background-color: #f00;
+    border-color: #d00 solid 1px;
+    border-radius: 25px;
+}
+/* Link aún no visitado */
+a:link{
+    color:pink;
+    /* Desaparece la linea subrayada */
+    text-decoration: none;
+}
+/* diseño de link visitado */
+a:visited{
+    color: blue;
+}
+/* Cuando rl mouse da click */
+a:active{
+    color:black;
+}
+/* Cuando el mouse está por encima del link */
+a:hover{
+    color: blue;
+    /* Añade la linea del link */
+    text-decoration: underline;
+    /* Cambia de color de fondo */
+    background-color: #d00;
+    /* Ayuda a crecer al elemento a */
+    padding: 15px;
+    transition: .1s;
 }
