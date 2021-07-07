@@ -1,0 +1,30 @@
+body{
+    background-color: #eee;
+}
+table{
+    width: 100%;
+    background-color: white;
+    /* Se eliminan los borders entre cada campo */
+    border-collapse: collapse;
+}
+/* Se seleccionan las filas pares 
+even: par
+odd: impar
+*/
+tr:nth-child(){
+    background-color: #f2f2f2;
+}
+td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th{
+    color: white;
+    background-color: #4caf50;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}

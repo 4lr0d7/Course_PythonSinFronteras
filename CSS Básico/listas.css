@@ -1,0 +1,36 @@
+body{
+    background-color: #eee;
+}
+/* Tipos de listas  */
+/*
+Para seleccionar una etiqueta dentro de otra
+neceitamos señalarlos de la sig. manera:
+    - Etiqueta padre / madre [+] etiqueta hijo
+    */
+ul li{
+/* Lista circular
+list-style: circle;
+lista cuadricular
+list-style: square;
+Números romanos
+list-style: upper-roman;
+Letras del abecedario
+list-style: lower-alpha; */
+}
+
+ul{
+    list-style-type: none;
+    /* Cambia el color del fondo */
+    background-color: #fff;
+    /* Efecto de cuadro levantado */
+    border:solid 1px #ddd;
+    /* redondea el cuadro */
+    border-radius: 4px;
+    /* Espaciado a los laterales */
+    padding-left: 0px;
+}
+li{
+    /* separar los elementos con una linea */
+    border-bottom: solid 1px #ddd;
+    padding: 15px;
+}

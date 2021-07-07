@@ -1,0 +1,14 @@
+body{
+    background-color: #eee;
+}
+p{
+    /* Se convierte en inline y no un block */
+    /* display: inline; */
+}
+#invisible{
+    /* Desaparece el elemento */
+    display: none;
+}
+span{
+    display: block;
+}
