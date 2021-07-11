@@ -1,0 +1,22 @@
+body{
+    background-color: #eee;
+}
+p{
+/* Indica el ancho máximo */
+max-width: 350px;
+background-color: greenyellow;
+/* Se centra siempre y cuando sea display:block */
+margin:auto;
+/* Por defecto, la posición es static 
+     position:static 
+Posición relativa inicia la posición donde comienza
+     position: relative;
+Fija la posición
+    position: fixed;
+ */
+ position:fixed;
+right:  15px;
+top: 0px;
+bottom:0px;
+
+}

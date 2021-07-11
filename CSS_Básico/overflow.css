@@ -1,0 +1,17 @@
+body{
+    background-color: #eee;
+}
+#over{
+    width: 100px;
+    height: 100px;
+    background-color: #eaea;
+    /*
+    overflow: visible; Valor por defecto en css
+    overflow: hidden; Desaparece el contenido sobre-saliente
+    overflow: scroll; nos aparce el scroll de contenido
+    overflow: auto; es lo mismo que el scroll en el caso necesario de las cosas
+    overflow-y: auto; scroll vertical
+    overflow-x: auto; scroll horizontal
+    */
+    overflow: scroll;
+}

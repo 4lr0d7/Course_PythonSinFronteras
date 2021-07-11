@@ -1,0 +1,23 @@
+body{
+    background-color: #eee;
+}
+img{
+    
+    /* float: left; Aparece el texto a la derecha de la imagen */
+    /* float: right; Aparece el texto a la derecha */
+    float: right;
+    cursor: pointer;
+    /* opacity: 0.5; Recibe de valores entre 0 a 1 */
+}
+img:hover{
+    opacity: 0.5;
+
+}
+
+/* Selectores codecendientes 
+    padre hijo {}
+    div p {}
+*/
+div p{
+color: #f00;
+}
